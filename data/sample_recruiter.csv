@@ -1,0 +1,4 @@
+candidate_id,name,email,phone,current_company,title,location
+C001,John Doe,john.doe@example.com,(415) 555-2671,Acme Inc,Software Engineer,"San Francisco, CA, USA"
+C002,Jane Smith,jane.smith@work.com,+91 98765 43210,TechCorp,Senior Developer,"Bangalore, KA, India"
+C001,J. Doe,jdoe@personal.com,415-555-2671,Acme Inc,Backend Engineer,"San Francisco, California"

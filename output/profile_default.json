@@ -1,0 +1,250 @@
+[
+  {
+    "candidate_id": "C001",
+    "full_name": "John Doe",
+    "emails": [
+      "john.doe@example.com",
+      "jdoe@personal.com"
+    ],
+    "phones": [
+      "+14155552671"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": "https://johndoe.dev",
+      "other": []
+    },
+    "headline": "Software Engineer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "go",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "machine learning",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Acme Inc",
+        "title": "Software Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.78,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "full_name",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "headline",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "emails",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "phones",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "location",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "links",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "skills",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "experience",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "candidate_id",
+        "source": "RECRUITER_CSV",
+        "method": "extracted"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C002",
+    "full_name": "Jane Smith",
+    "emails": [
+      "jane.smith@work.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "KA",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior Developer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "node.js",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp",
+        "title": "Senior Developer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.79,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "full_name",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "headline",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "emails",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "phones",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "location",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "skills",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "experience",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "candidate_id",
+        "source": "RECRUITER_CSV",
+        "method": "extracted"
+      }
+    ]
+  }
+]

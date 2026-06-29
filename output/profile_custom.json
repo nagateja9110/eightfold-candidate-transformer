@@ -1,0 +1,26 @@
+[
+  {
+    "full_name": "John Doe",
+    "primary_email": "john.doe@example.com",
+    "phone": "+14155552671",
+    "skills": [
+      "go",
+      "javascript",
+      "machine learning",
+      "python"
+    ],
+    "overall_confidence": 0.78
+  },
+  {
+    "full_name": "Jane Smith",
+    "primary_email": "jane.smith@work.com",
+    "phone": "+919876543210",
+    "skills": [
+      "javascript",
+      "node.js",
+      "react",
+      "typescript"
+    ],
+    "overall_confidence": 0.79
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "C001": {
+    "login": "johndoe", "name": "John Doe", "email": "john.doe@example.com",
+    "bio": "Software engineer passionate about Python and ML",
+    "location": "San Francisco, CA", "company": "@acme-inc",
+    "blog": "https://johndoe.dev", "public_repos": 42,
+    "languages": ["Python", "JavaScript", "Go", "machine learning"]
+  },
+  "C002": {
+    "login": "janesmith", "name": "Jane Smith", "email": "jane.smith@work.com",
+    "bio": "Full-stack dev | React | Node.js",
+    "location": "Bangalore, India", "company": "TechCorp",
+    "blog": "", "public_repos": 28,
+    "languages": ["JavaScript", "TypeScript", "React", "Node.js"]
+  }
+}
