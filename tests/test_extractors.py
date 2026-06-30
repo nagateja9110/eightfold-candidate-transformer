@@ -68,7 +68,8 @@ class TestCSVExtractor:
 
     def test_sample_recruiter_csv(self):
         sources = CSVExtractor().extract("data/sample_recruiter.csv")
-        assert len(sources) == 3
+        # 6 rows: C001 x2, C002, C003, C005, C006
+        assert len(sources) == 6
         assert all(s.source_type == SourceType.RECRUITER_CSV for s in sources)
 
     def test_completely_empty_file_returns_empty_list(self, tmp_path):
@@ -144,5 +145,6 @@ class TestGitHubExtractor:
 
     def test_sample_github_json(self):
         sources = GitHubExtractor().extract("data/sample_github.json")
-        assert len(sources) == 2
+        # 5 profiles: C001, C002, C004, C005, C006 (C003 is CSV-only)
+        assert len(sources) == 5
         assert all(s.source_type == SourceType.GITHUB_API for s in sources)

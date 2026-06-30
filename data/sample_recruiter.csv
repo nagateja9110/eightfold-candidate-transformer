@@ -1,4 +1,7 @@
 candidate_id,name,email,phone,current_company,title,location
 C001,John Doe,john.doe@example.com,(415) 555-2671,Acme Inc,Software Engineer,"San Francisco, CA, USA"
-C002,Jane Smith,jane.smith@work.com,+91 98765 43210,TechCorp,Senior Developer,"Bangalore, KA, India"
 C001,J. Doe,jdoe@personal.com,415-555-2671,Acme Inc,Backend Engineer,"San Francisco, California"
+C002,Jane Smith,jane.smith@work.com,+91 98765 43210,TechCorp,Senior Developer,"Bangalore, KA, India"
+C003,Bob Chen,bob.chen@techstart.io,650-300-1234,TechStart,Data Scientist,"Austin, TX, USA"
+C005,Alex Kim,alex.kim@corp.com,+44 7911 123456,DataCorp,Senior Engineer,"London, UK"
+C006,Priya Patel,priya@startup.in,NOT-A-PHONE,InnovateTech,ML Engineer,"Mumbai, Maharashtra, India"

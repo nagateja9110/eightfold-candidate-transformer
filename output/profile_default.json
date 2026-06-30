@@ -246,5 +246,416 @@
         "method": "extracted"
       }
     ]
+  },
+  {
+    "candidate_id": "C003",
+    "full_name": "Bob Chen",
+    "emails": [
+      "bob.chen@techstart.io"
+    ],
+    "phones": [
+      "+16503001234"
+    ],
+    "location": {
+      "city": "Austin",
+      "region": "TX",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Data Scientist",
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "TechStart",
+        "title": "Data Scientist",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.73,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "headline",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "emails",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "phones",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "candidate_id",
+        "source": "RECRUITER_CSV",
+        "method": "extracted"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C005",
+    "full_name": "Alex Kim",
+    "emails": [
+      "alex.kim@corp.com"
+    ],
+    "phones": [
+      "+447911123456"
+    ],
+    "location": {
+      "city": "London",
+      "region": "England",
+      "country": "GB"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior Engineer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "kubernetes",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "rust",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DataCorp",
+        "title": "Senior Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "@bigco",
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.77,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "full_name",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "headline",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "emails",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "phones",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "location",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "skills",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "experience",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "candidate_id",
+        "source": "RECRUITER_CSV",
+        "method": "extracted"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C006",
+    "full_name": "Priya Patel",
+    "emails": [
+      "priya@startup.in"
+    ],
+    "phones": [],
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "ML Engineer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "keras",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "pytorch",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "tensorflow",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "InnovateTech",
+        "title": "ML Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.75,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "full_name",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "headline",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "emails",
+        "source": "RECRUITER_CSV",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "location",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "skills",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "RECRUITER_CSV",
+        "method": "merged"
+      },
+      {
+        "field": "experience",
+        "source": "GITHUB_API",
+        "method": "merged"
+      },
+      {
+        "field": "candidate_id",
+        "source": "RECRUITER_CSV",
+        "method": "extracted"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C004",
+    "full_name": "Maria Garcia",
+    "emails": [
+      "maria.garcia@design.co"
+    ],
+    "phones": [],
+    "location": {
+      "city": "Berlin",
+      "region": null,
+      "country": "DE"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": "https://maria.design",
+      "other": []
+    },
+    "headline": "UI/UX designer | Figma | Design Systems",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "css",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "design systems",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "figma",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.6,
+        "sources": [
+          "GITHUB_API"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "@figma-co",
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.71,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "headline",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "emails",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "location",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "links",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "skills",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "experience",
+        "source": "GITHUB_API",
+        "method": "normalized"
+      },
+      {
+        "field": "candidate_id",
+        "source": "GITHUB_API",
+        "method": "extracted"
+      }
+    ]
   }
 ]

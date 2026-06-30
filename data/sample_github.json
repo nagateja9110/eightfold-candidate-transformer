@@ -1,16 +1,57 @@
 {
   "C001": {
-    "login": "johndoe", "name": "John Doe", "email": "john.doe@example.com",
+    "login": "johndoe",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
     "bio": "Software engineer passionate about Python and ML",
-    "location": "San Francisco, CA", "company": "@acme-inc",
-    "blog": "https://johndoe.dev", "public_repos": 42,
+    "location": "San Francisco, CA",
+    "company": "@acme-inc",
+    "blog": "https://johndoe.dev",
+    "public_repos": 42,
     "languages": ["Python", "JavaScript", "Go", "machine learning"]
   },
   "C002": {
-    "login": "janesmith", "name": "Jane Smith", "email": "jane.smith@work.com",
+    "login": "janesmith",
+    "name": "Jane Smith",
+    "email": "jane.smith@work.com",
     "bio": "Full-stack dev | React | Node.js",
-    "location": "Bangalore, India", "company": "TechCorp",
-    "blog": "", "public_repos": 28,
+    "location": "Bangalore, India",
+    "company": "TechCorp",
+    "blog": "",
+    "public_repos": 28,
     "languages": ["JavaScript", "TypeScript", "React", "Node.js"]
+  },
+  "C004": {
+    "login": "mariagarcia",
+    "name": "Maria Garcia",
+    "email": "maria.garcia@design.co",
+    "bio": "UI/UX designer | Figma | Design Systems",
+    "location": "Berlin, Germany",
+    "company": "@figma-co",
+    "blog": "https://maria.design",
+    "public_repos": 31,
+    "languages": ["JavaScript", "CSS", "Figma", "Design Systems"]
+  },
+  "C005": {
+    "login": "alexkim",
+    "name": "Alex Kim",
+    "email": "alex.kim@corp.com",
+    "bio": "Product manager at BigCo | Building at scale",
+    "location": "London, England",
+    "company": "@bigco",
+    "blog": "",
+    "public_repos": 19,
+    "languages": ["Python", "Rust", "Kubernetes"]
+  },
+  "C006": {
+    "login": "priyapatel",
+    "name": "Priya Patel",
+    "email": "priya@startup.in",
+    "bio": "ML Engineer | Keras | TensorFlow | Open Source",
+    "location": "Mumbai, India",
+    "company": "InnovateTech",
+    "blog": "",
+    "public_repos": 12,
+    "languages": ["Python", "TensorFlow", "Keras", "PyTorch"]
   }
 }

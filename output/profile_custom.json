@@ -22,5 +22,47 @@
       "typescript"
     ],
     "overall_confidence": 0.79
+  },
+  {
+    "full_name": "Bob Chen",
+    "primary_email": "bob.chen@techstart.io",
+    "phone": "+16503001234",
+    "skills": [],
+    "overall_confidence": 0.73
+  },
+  {
+    "full_name": "Alex Kim",
+    "primary_email": "alex.kim@corp.com",
+    "phone": "+447911123456",
+    "skills": [
+      "kubernetes",
+      "python",
+      "rust"
+    ],
+    "overall_confidence": 0.77
+  },
+  {
+    "full_name": "Priya Patel",
+    "primary_email": "priya@startup.in",
+    "phone": null,
+    "skills": [
+      "keras",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "overall_confidence": 0.75
+  },
+  {
+    "full_name": "Maria Garcia",
+    "primary_email": "maria.garcia@design.co",
+    "phone": null,
+    "skills": [
+      "css",
+      "design systems",
+      "figma",
+      "javascript"
+    ],
+    "overall_confidence": 0.71
   }
 ]

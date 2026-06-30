@@ -30,8 +30,8 @@ def make_extracted(source_type, trust_score, skills):
 class TestMerge:
     def test_produces_one_profile_per_candidate(self):
         profiles = merge(load_sample_sources())
-        # 3 CSV rows (2 distinct people, C001 duplicated) + 2 GitHub profiles -> 2 candidates
-        assert len(profiles) == 2
+        # 6 CSV rows + 5 GitHub profiles → 6 distinct candidates (C001 3 sources, C003 CSV-only, C004 GitHub-only)
+        assert len(profiles) == 6
 
     def test_c001_matches_across_email_phone_and_github(self):
         profiles = merge(load_sample_sources())
@@ -112,9 +112,11 @@ class TestMerge:
             source.raw_data.pop("candidate_id", None)
 
         profiles = merge(csv_sources + github_sources)
-        assert len(profiles) == 2
+        assert len(profiles) == 6
+        # C001 and C002 must still group correctly without candidate_id
         names = {p.full_name for p in profiles}
-        assert names == {"John Doe", "Jane Smith"}
+        assert "John Doe" in names
+        assert "Jane Smith" in names
 
 
 class TestMergeSkillsDedup:
