@@ -55,7 +55,7 @@ Either `--recruiter-csv` or `--github-json` may be omitted if you only have one 
 pytest -v
 ```
 
-96 tests across extractors, normalizers, merger, projector, validator, and an end-to-end CLI test.
+101 tests across extractors, normalizers, merger, projector, validator, and an end-to-end CLI test.
 
 ## Sample output
 
