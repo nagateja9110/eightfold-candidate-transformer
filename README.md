@@ -65,7 +65,10 @@ The output produced by the two commands above on the sample inputs is checked in
 
 ## Demo video
 
-**Video:** _link here_
+~2 min walkthrough: default + custom config runs, one design decision, one edge case.
+See [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for the script.
+
+**Video:** [Watch on Google Drive](https://drive.google.com/file/d/1xxu197QqMFTl1g5hxZ19Sr4-nT8UwQCT/view?usp=sharing)
 
 ## Output config format
 
